@@ -1,7 +1,5 @@
 from numpy import *
 import matplotlib.pyplot as plt
-from tkinter import messagebox
-import math
 
 # Create the vectors X and Y
 #valores para x1
