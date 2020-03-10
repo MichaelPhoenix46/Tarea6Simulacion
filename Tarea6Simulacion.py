@@ -1,9 +1,8 @@
 from numpy import *
 import matplotlib.pyplot as plt
 
-# Create the vectors X and Y
 #valores para x1
-x1 = linspace(-20,20,100)
+#x1 = linspace(-20,20,100)
 #d = ((x1**3)-3)
 
 #y1 = sign(d) * (abs(d)) ** (1/3)
@@ -40,7 +39,6 @@ try:
     #x2 = linspace(-10,10,100)
     #y2 = eval(input('formula de sistema 2'))
 
-    # Create the plot
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1)
     ax.spines['left'].set_position('zero')
@@ -53,7 +51,6 @@ try:
 
     plt.plot(x, y)
     #plt.plot(x2, y2)
-    # Show the plot
     plt.show()
 
 except:
